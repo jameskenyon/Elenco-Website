@@ -1,5 +1,22 @@
 .App {
   text-align: center;
+  font-family: "Helvetica";
+}
+
+.mainText {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.subtitleText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bodyText {
+  font-size: 16px;
+  font-weight: normal;
+  color: darkgray;
 }
 
 /* General Views */

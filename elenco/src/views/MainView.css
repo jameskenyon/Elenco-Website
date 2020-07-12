@@ -3,3 +3,65 @@
   color: black;
   background-color: white;
 }
+
+#spacerOne {
+  height: 10vh;
+  position: relative;
+}
+
+#mainViewContainer {
+  display: inline-block;
+}
+
+#mainPreview {
+  height: 600px;
+  position: relative;
+  left: 100px;
+}
+
+#appInformationView {
+  display: inline-block;
+  position: relative;
+  left: -100px;
+}
+
+.logoContainer {
+  position: relative;
+  display: inline-flex;
+}
+
+#mainLogoImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 35px;
+}
+
+#logoText {
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+
+#priceText {
+  padding-top: 5px;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 1px;
+}
+
+#mainInformationText {
+  padding-top: 40px;
+  padding-left: 282px;
+  max-width: 45vh;
+  text-align: left;
+}
+
+#appStoreDownload {
+  width: 200px;
+  position: relative;
+  padding-top: 40px;
+  left: -62px;
+}

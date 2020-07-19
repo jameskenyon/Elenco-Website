@@ -144,7 +144,7 @@
   }
 
   #appStoreDownload {
-    left: -22px;
+    height: 70px;
   }
 }
 
@@ -158,9 +158,5 @@
   #featureViews {
     padding-top: 50px;
     margin: 5px;
-  }
-
-  #appStoreDownload {
-    left: 0px;
   }
 }

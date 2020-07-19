@@ -76,7 +76,7 @@ export default class MainView extends React.Component {
             />
             <FeatureView
               title="Essentials List"
-              info="Adding your essentials to the 'Essentials' list lets you add them to any of your other lists in the touch of a button."
+              info="Adding your essentials to the 'Essentials' list lets you add them to any of your other lists with the touch of a button."
             />
           </div>
         </div>

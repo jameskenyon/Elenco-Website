@@ -1,33 +1,36 @@
 .MainView {
-  height: 100vh;
   color: black;
-  background-color: white;
 }
 
 #spacerOne {
-  height: 10vh;
+  height: 8vh;
   position: relative;
 }
 
 #mainViewContainer {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
 }
 
 #mainPreview {
   height: 600px;
   position: relative;
-  left: 100px;
 }
 
 #appInformationView {
-  display: inline-block;
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 80px;
+  justify-content: left;
   position: relative;
-  left: -100px;
 }
 
 .logoContainer {
   position: relative;
-  display: inline-flex;
+  display: flex;
+  justify-content: left;
 }
 
 #mainLogoImage {
@@ -54,14 +57,91 @@
 
 #mainInformationText {
   padding-top: 40px;
-  padding-left: 282px;
-  max-width: 45vh;
+  max-width: 45vw;
   text-align: left;
+}
+
+#downloadContainer {
+  display: flex;
 }
 
 #appStoreDownload {
   width: 200px;
   position: relative;
   padding-top: 40px;
-  left: -62px;
+}
+
+#spacerTwo {
+  height: 5vh;
+  position: relative;
+}
+
+#featureViewContainer {
+  height: auto;
+  top: -80px;
+  position: relative;
+}
+
+#featureViews {
+  height: 100%;
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#footerView {
+  position: relative;
+  font-size: 20px;
+  top: -100px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#boldName {
+  color: #1bafa9;
+}
+
+@media only screen and (max-width: 875px) {
+  #mainViewContainer {
+    position: relative;
+    top: -25px;
+  }
+
+  #mainPreview {
+    height: 400px;
+    padding-top: 40px;
+    display: none;
+  }
+
+  #appInformationView {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+
+  #spacerOne {
+    height: 0vh;
+    position: relative;
+  }
+
+  #mainInformationText {
+    padding-top: 20px;
+    max-width: 95vw;
+  }
+
+  #logoText {
+    padding-left: 20px;
+  }
+
+  #featureViews {
+    padding-top: 60px;
+    margin: 5px;
+  }
+
+  #footerView {
+    top: -50px;
+  }
 }

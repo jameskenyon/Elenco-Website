@@ -8,6 +8,11 @@
   font-weight: normal;
 }
 
+.titleText {
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .subtitleText {
   font-size: 20px;
   font-weight: bold;
@@ -25,7 +30,6 @@
   position: relative;
   padding-top: 25px;
   padding-bottom: 0px;
-  overflow: hidden;
 }
 
 .ContainerView {
@@ -34,6 +38,5 @@
   margin-left: 12%;
   margin-right: 12%;
   height: auto;
-  overflow: hidden;
   margin-bottom: 20px;
 }

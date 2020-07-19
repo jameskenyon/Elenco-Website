@@ -111,13 +111,11 @@
   }
 
   #mainPreview {
-    height: 400px;
-    padding-top: 40px;
     display: none;
   }
 
   #appInformationView {
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 20px;
     padding-top: 30px;
   }
@@ -128,7 +126,7 @@
   }
 
   #mainInformationText {
-    padding-top: 20px;
+    padding-top: 30px;
     max-width: 95vw;
   }
 
@@ -137,11 +135,32 @@
   }
 
   #featureViews {
-    padding-top: 60px;
+    padding-top: 30px;
     margin: 5px;
   }
 
   #footerView {
     top: -50px;
+  }
+
+  #appStoreDownload {
+    left: -22px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #appInformationView {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+
+  #featureViews {
+    padding-top: 50px;
+    margin: 5px;
+  }
+
+  #appStoreDownload {
+    left: 0px;
   }
 }
